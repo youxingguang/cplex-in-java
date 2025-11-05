@@ -21,7 +21,7 @@ public class lpbyColumn {
 		{
 		 rng[0][i]=model.addRange(lhs[i],rhs[i]);
 		}
-		//到目前为止，这只是一个空的框架,但是定了边界
+		//到目前为止，这只是一个空的框架,但是限定了边界
 		//逐列添加
 		var[0]=new IloNumVar[4];
 		double[] c= {6,4,7,5};
